@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     font-family: "Roboto", sans-serif, 'Times New Roman', Times, serif;
     box-sizing: border-box;
@@ -74,7 +73,7 @@ html, body {
 .hero-name {
     text-align: center;
     font-size: 3rem;
-    color: rgb(141, 29, 21); /* darker color */
+    color: rgb(141, 29, 21);
     padding: 200px 10px;
 }
 
