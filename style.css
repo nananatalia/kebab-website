@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+    font-family: "Roboto", sans-serif, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-image: url("kebab.jpg");
+    filter: grayscale(40%); /* Grayscale filter for the background */
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%; /* Full height to fit the viewport */
+    width: 100%;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px; /* Adjusted for balanced spacing */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    backdrop-filter: blur(5px); /* Adds a blur effect */
+}
+
+/* Logo Text */
+.nav-name .logo-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(238, 181, 36); 
+    text-decoration: none;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: rgb(238, 181, 36); /* Goldenrod color for nav links */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(182, 133, 11); /* darker color */
+}
+
+/* Close Button */
+#menu-close-button {
+    display: none; /* Hidden by default */
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(238, 181, 36);
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.hero-name {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(141, 29, 21); /* darker color */
+    padding: 200px 10px;
+}
+
+.hero-name h1 {
+    margin: 150px 0px;
+}
+
+.hero-name .text {
+    font-size: 1.5rem;
+    margin-top: -120px; /* Adjust margin to bring it closer to h1 */
+    color: rgb(141, 29, 21); /* Match h1 color */
+}
+
+.hero-name .buttons {
+    margin-top: 0px;
+}
+
+.hero-name .buttons a {
+    font-size: 1.2rem;
+    color: white; /* goldenrod color for links */
+    background-color:rgb(243, 156, 18);
+    text-decoration: none;
+    margin: 0 3px;
+    padding: 10px 20px;
+    border: 2px solid rgb(243, 156, 18);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.hero-name .buttons a:hover {
+    background-color: rgb(131, 84, 7);
+    border: rgb(131, 84, 7);
+    transform: scale(1.05);
+}
+
