@@ -109,3 +109,81 @@ html, body {
     transform: scale(1.05);
 }
 
+#menu {
+    padding: 50px 20px;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-nazwa h2 {
+    font-size: 3rem;
+    color: rgb(141, 29, 21);
+    margin-bottom: 30px;
+}
+
+.menu-dishes-names {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    list-style: none;
+}
+
+.menu-dishes-names .nav-item {
+    display: inline-block;
+}
+
+.menu-dishes-names .nav-link {
+    font-size: 1.3rem;
+    color: rgb(243, 156, 18);
+    text-decoration: none;
+    padding: 5px 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-dishes-names .nav-link.active,
+.menu-dishes-names .nav-link:hover {
+    background-color: rgb(141, 29, 21);
+    color: rgb(131, 84, 7);
+}
+
+.menu-content div {
+    display: none;
+}
+
+.menu-content div:target {
+    display: block;
+}
+
+.menu-content h3 {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.menu-content .name {
+    font-size: 2rem;
+    color: rgb(243, 156, 18) !important;
+    text-align: left;
+}
+
+.menu-content .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+}
+
+.menu-content .row h3 {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
