@@ -5,10 +5,10 @@
 
 html, body {
     background-image: url("kebab.jpg");
-    filter: grayscale(40%); /* Grayscale filter for the background */
+    filter: grayscale(40%);
     background-size: cover;
-    background-repeat: no-repeat; /* Prevents the background from repeating */
-    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; 
+    background-position: center;
     background-attachment: fixed;
     margin: 0;
     height: 100%; /* Full height to fit the viewport */
@@ -29,7 +29,7 @@ html, body {
     backdrop-filter: blur(5px); /* Adds a blur effect */
 }
 
-/* Logo Text */
+
 .nav-name .logo-text {
     font-size: 1.8rem;
     font-weight: bold;
@@ -38,7 +38,6 @@ html, body {
     white-space: nowrap; /* Prevents text wrapping */
 }
 
-/* Navigation Menu */
 .nav-menu {
     display: flex;
     list-style: none;
@@ -49,7 +48,7 @@ html, body {
 }
 
 .nav-link {
-    color: rgb(238, 181, 36); /* Goldenrod color for nav links */
+    color: rgb(238, 181, 36);
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
@@ -59,7 +58,6 @@ html, body {
     color: rgb(182, 133, 11); /* darker color */
 }
 
-/* Close Button */
 #menu-close-button {
     display: none; /* Hidden by default */
     background: transparent;
@@ -93,7 +91,7 @@ html, body {
 
 .hero-name .buttons a {
     font-size: 1.2rem;
-    color: white; /* goldenrod color for links */
+    color: white; 
     background-color:rgb(243, 156, 18);
     text-decoration: none;
     margin: 0 3px;
