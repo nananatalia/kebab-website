@@ -185,3 +185,96 @@ html, body {
     width: 100%;
     margin-bottom: 10px;
 }
+
+#contact > section {
+    background-color: rgb(36, 36, 36) !important;
+    background-image: none !important;
+}
+
+.kontakt-info {
+    margin-top: 200px;
+    margin-bottom: 500px;
+    position: relative;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.container-lewo, .container-prawo {
+    padding: 0 20px;
+}
+
+.container-lewo {
+    float: left;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: whitesmoke;
+    width: 45%;
+}
+
+.zamow {
+    font-size: 1.75rem;
+}
+
+.dane-w-kolumnie {
+    font-size: 1.5rem;
+}
+
+.container-prawo {
+    text-align: center;
+    float: right;
+    font-size: 1rem;
+    color: whitesmoke;
+    width: 50%;
+}
+
+iframe {
+    width: 500px;
+    height: 400px;
+}
+
+.footer {
+    margin-top: 700px;
+    background-color: black;
+    padding: 70px 0;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.godziny {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.godziny-lista {
+    list-style: none;    /* usuwa default kropki */
+    padding: 0;     /* uklada sie rowno */
+}
+
+.godziny-lista li {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 0;
+    /*border-bottom: 1px solid #444;         tworzy linie od dolu tekstu */
+}
+
+.godziny-lista span {
+    margin: 0;
+}
+
+.sociale {
+    display: inline;
+    height: 40px;
+    width: 40px;
+}
+
+.linki {
+    justify-content: center;
+}
